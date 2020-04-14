@@ -1,5 +1,5 @@
-# py4e *Python for Everybody"
-PY4E is a python programming specialization on Coursera with 5 courses and a capstone project. The specialization is meant to focus more on informatics, rather than the traditional computer science computational focus of introductory courses. 
+# py4e *Python for Everybody*
+PY4E is a python programming specialization on Coursera with 5 courses and a capstone project. The specialization is meant to focus more on informatics, rather than the traditional computer science computational focus of most introductory courses. I like the practical approach to this course. PY4E is taught by Dr. Charles Severance - aka Dr. Chuck. 
 
 ###Book
 [See book here](https://www.py4e.com/book)
