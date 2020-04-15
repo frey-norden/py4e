@@ -3,6 +3,7 @@
 # search a string and replace with new characters
 
 def sreplace():
+    who = input('Enter a name: ')
     greet = 'Hello person'
     nstr = greet.replace('person', 'Ricki')
     print(nstr)
