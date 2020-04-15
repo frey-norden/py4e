@@ -22,5 +22,9 @@ def computepay():
         st = (hrs * rate)
         return st
 
-p = computepay()
-print('Pay',p)
+def main():
+    p = computepay()
+    print('Pay',p)
+
+if __name__ == "__main__" :
+    main()
