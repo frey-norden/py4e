@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 # File: loopandcount.py
 # simple loop that iterates through a string and counts
 # characters in the str
