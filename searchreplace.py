@@ -3,13 +3,8 @@
 # search a string and replace with new characters
 
 def sreplace():
-    try:
-        person = input('Enter a name')
-    except:
-        print('Bad data, man')
-        quit
-    greet = 'Hello', person
-    nstr = greet.replace(person, 'Ricki')
+    greet = 'Hello person'
+    nstr = greet.replace('person', 'Ricki')
     print(nstr)
 
 def main():
