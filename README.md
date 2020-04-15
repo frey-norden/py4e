@@ -1,5 +1,6 @@
 # py4e *Python for Everybody*
-PY4E is a python programming specialization on Coursera with 5 courses and a capstone project. The specialization is meant to focus more on informatics, rather than the traditional computer science computational focus of most introductory courses. I like the practical approach to this course. PY4E is taught by Dr. Charles Severance - aka Dr. Chuck. 
+PY4E is a python programming specialization on Coursera with 5 courses and a capstone project, taught by Dr. Charles Severance - aka Dr. Chuck - from the University of Michigan School of Informatics. The specialization is meant to focus more on informatics, rather than the traditional computer science computational focus of most introductory programming courses. I particularly like the practical approach to this course. 
+The topics include: the basics of programming with the Python language, data structures, web scraping, and interacting with databases via XML and JSON. In this specialization Python3 is used. I'm looking forward to learning lots of seriously cool stuff. If you are interested in python and doing cool things like accessing webpages through your terminal and parsing out data from them to use in your own application, then go on over to Coursera and sign up. 
 
 ###Book
 [See book here](https://www.py4e.com/book)

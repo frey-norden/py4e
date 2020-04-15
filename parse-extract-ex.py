@@ -14,6 +14,9 @@ def parse_extract():
     host = data[atpos+1 : sppos]
     print(host)
 
+    pos = data.find('.')
+    print(data[pos:pos+3])
+
 def main():
     parse_extract()
 
