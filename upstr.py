@@ -7,7 +7,7 @@ def upstr():
         band = input('Enter a band, man: ')
     except:
         'Bad data, man'
-        quit
+        quit()
 
     strup = band.upper()
     print(strup, 'is the best, man!')
