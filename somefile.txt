@@ -1,4 +1,4 @@
-here is some text fo ya.
+ here is some text fo ya.
  I'm gunna drop it like that. 
  Then we stick it in the file
  And the handla gets it back
@@ -7,4 +7,9 @@ here is some text fo ya.
  that's how it's goin down
  bout ta show yall fools
  how us pythonistas clown
+
+ if you writin on them codes
+ you might get a little loopy
+ all them if while and fo's
+ like the doowap's shooby doobys
 
