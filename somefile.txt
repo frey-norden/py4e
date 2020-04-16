@@ -1,0 +1,10 @@
+here is some text fo ya.
+ I'm gunna drop it like that. 
+ Then we stick it in the file
+ And the handla gets it back
+
+ print it to tha screen
+ that's how it's goin down
+ bout ta show yall fools
+ how us pythonistas clown
+
