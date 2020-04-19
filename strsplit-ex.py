@@ -15,7 +15,7 @@ def examplesplits():
     print("esimerkki = ex1.split()")
     print("print(esimerkki)")
     print(esimerkki)
-    print("print(len(esimerkki))")
+    print("print(len(esimerkki))") 
     print(len(esimerkki))
     print('\n')
     esimerkki = ex1.split(';')
