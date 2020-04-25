@@ -11,7 +11,7 @@ def getterdone():
         else:
             x = 0
         x = qty.get(name, 0)
-        print(x)
+        print(name, x)
 
 def settergetter():
     for name in names :
