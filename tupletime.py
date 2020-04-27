@@ -46,3 +46,14 @@ print("for k,v in sorted(d.items()):")
 print("    print(k, v)")
 for k,v in sorted(d.items()):
     print(k, v)
+
+#sort by value instead of key
+tmp = list()
+print('... using a for loop to flip key value tuples')
+for k, v in d.items() :
+    tmp.append( (v, k) )
+print(tmp)
+print('\n')
+print('...now using the sorted() function w reverse=True as 2nd arguement')
+tmp = sorted(tmp, reverse=True)
+print(tmp)
