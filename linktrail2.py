@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # File: linktrail2.py
 # chain, chain, chain
-# chain of links 
+# chain of links
 
 import urllib.request, urllib.parse, urllib.error
 from bs4 import BeautifulSoup
@@ -11,7 +11,6 @@ import ssl
 ctx = ssl.create_default_context()
 ctx.check_hostname = False
 ctx.verify_mode = ssl.CERT_NONE
-
 
 firstlink = input('Enter URL: ')
 count = int(input('Enter count: '))
