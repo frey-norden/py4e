@@ -10,8 +10,10 @@ data = '''{
     "area code" : "713"
     },
     "ride" : {
-        "chrome" : "yes"
-    }
+        "chrome" : "yes",
+        "candy_paint" : "uknowit",
+        "leather_seats" : "a-must"
+    },
 }'''
 
 info = json.loads(data)
