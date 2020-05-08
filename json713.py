@@ -11,11 +11,12 @@ data = '''{
     },
     "ride" : {
         "chrome" : "yes",
-        "candy_paint" : "uknowit",
+        "candy_paint" : "u-know-it!!",
         "leather_seats" : "a-must"
-    },
+    }
 }'''
 
 info = json.loads(data)
 print('Name:', info["name"])
 print('Chrome:', info["ride"]["chrome"])
+print('Candy Paint?', info["ride"]["candy_paint"])
