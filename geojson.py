@@ -1,6 +1,6 @@
-import urllib.request, urllib.parse, urllib.error
-import json
-import ssl
+import urllib.request as UR
+import urllib.parse as UP, urllib.error
+import json, ssl 
 
 api_key = False
 # If you have a Google Places API key, enter it here
@@ -25,10 +25,10 @@ while True:
     parms = dict()
     parms['address'] = address
     if api_key is not False: parms['key'] = api_key
-    url = serviceurl + urllib.parse.urlencode(parms)
+    url = serviceurl + UP.urlencode(parms)
 
     print('Retrieving', url)
-    uh = urllib.request.urlopen(url, context=ctx)
+    uh = UR.urlopen(url, context=ctx)
     data = uh.read().decode()
     print('Retrieved', len(data), 'characters')
 
