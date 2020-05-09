@@ -12,7 +12,7 @@ class PartyAnimal:
 
     def juhla(self):
         self.x += 1
-        print(self.nimi, "Kuika monta juhlaa", self.x)
+        print(self.nimi, "Kuinka monta juhlaa?", self.x)
 
 class Jaakiekko(PartyAnimal):  # can't remember how to type unicode chars for jääkiekko
     points = 0
