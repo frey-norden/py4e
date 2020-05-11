@@ -9,14 +9,17 @@ DROP TABLE IF EXISTS Counts''')
 cur.execute('''
 CREATE TABLE Counts(org TEXT, count INTEGER)''')
 fname = input('Enter file name:')
-if (len(fname) < 1): fname = 'mbox-short.txt'
+if (len(fname) < 1): fname = 'mbox.txt'
 fh = open(fname)
 for line in fh:
     if not line.startswith('From: '): continue
     pieces = line.split()
     email = pieces[1]
-    parts = email.split()
-    print(parts)
+    parts = email.split('@')
+    p1 = parts[1]
+    p2 = p1.split('.')
+    print(p2)
+    org = p2[0]
     cur.execute('SELECT count FROM Counts WHERE org = ? ', (org,))
     row = cur.fetchone()
     if row is None:
