@@ -19,7 +19,8 @@ for line in fh:
     p1 = parts[1]
     p2 = p1.split('.')
     #print(p2)
-    org = p2[0]
+    #org = p2[0]
+    org = p1
     cur.execute('SELECT count FROM Counts WHERE org = ? ', (org,))
     row = cur.fetchone()
     if row is None:
